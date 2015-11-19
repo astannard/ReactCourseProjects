@@ -1,4 +1,8 @@
-    var options = {
+var React = require('react');
+var ThumbnailList = require('./thumbnail-list');
+
+
+var options = {
        thumbnailData: [
             {title: 'Videos',
             number: 32,
@@ -21,4 +25,4 @@
     
     
     //React after render place in body
-    React.render(element, document.querySelector('.target'));
+    React.render(element, document.querySelector('.container'));
